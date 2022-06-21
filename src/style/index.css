@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+#main_bg{
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0px;
+    top: 0px;
+    background: #F8F8F8;
+}
+
+.navbar{
+    position: absolute;
+    height: 42px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #3C5999;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  
+}
+
+.navbar .logo{
+    position: absolute;
+    left: 8.26%;
+    right: 85.62%;
+    top: 10%;
+
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+
+.navbar #search{
+    position: absolute;
+    width: 502px;
+    height: 32px;
+    left: 14%;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.navbar .login{
+    text-decoration: none;
+
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 86%;
+
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+#feed{
+    position: absolute;
+    height: 1050px;
+    left: 224px;
+    right: 224px;
+    top: 60px;
+    background: #FFFFFF;
+}
+
+#feed button{
+    text-align: center;
+    text-decoration: none;
+    color: #3C5999;
+    border: 1px solid #3C5999;
+    border-radius: 3px 0px 0px 3px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 40px;
+}
+#feed button.active{
+    background: #3C5999;
+    color: #FFFFFF;
+}
+
+.photo-container{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background: url('../../public/img/avatar.jpg');
+    border-radius: 3px 0px 0px 3px;
+}
+#card{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: #F8F8F8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px 0px 0px 3px;
+}
+#profile{
+    width: 216px;
+    /* overflow: inherit; */
+}
+#profile p{
+    /* width: 216px; */
+    word-wrap: break-word;
+    
+}
+#feed #name{
+    color: #3C5999;  
+    font-size: 1.5rem; 
+}
+#feed #name #avatar{
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #3C5999;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+#feed #profile .card-text{
+    font-weight: 400;
+    line-height: 16px;
+}
+#feed #profile .card-footer{
+    margin-top: 22%;
+}
+#feed #profile .card-footer i{
+    display: inline-block; 
+    color: #3C5999;
+}
+#feed #profile .card-footer #heart-number{
+    margin: 0;
+    display: inline-block; 
+    color: #3C5999;
+    font-weight: 700;
+}
+#feed #profile .card-footer #date-time{
+    display: inline-block;
+    color: #BDBDBD;
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+#feed .fa-loader{
+    font-size: 50px;
+}
+
+
+/**/
+#main_bg_2{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+#form form{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 27.5%;
+    width: 20%;
+    height: 40%;
+    background: #F9F9F9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#form .title{
+    position: absolute;
+    top: 10%; 
+    left: 40%;
+    right: 40%;
+    color: #3C5999;
+    font-weight: 700;
+}
+
+#form .icon-list{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    right: 40%;
+    font-size: 50px;
+    border: 2px solid #E0E0E0;
+    border-radius: 12px;
+}
+#form .icon-list a{
+    text-decoration: none;
+}
+#form .icon-list .fa-google{
+    color: darkblue;
+}
+#form .icon-list .fa-facebook{
+    color: #3C5999;
+}
+#form .icon-list .fa-twitter{
+    color: #1DA1F2;
+}
+#form form img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+}
+#form #buttonSubmit{
+    width: 108px;
+    height: 44px;
+    background-color: #3C5999;
+    font-size: 15px;
+    font-weight: 600;
+}
+#form #createAcc{
+    position: absolute;
+    bottom: 27.5%;
+    left: 40%;
+    right: 40%;
+}
+#form #forgotPass a{
+    text-decoration: none;
+    color: #3C5999;
+}
+#form #createAcc a{
+    text-decoration: none;
+    color: #3C5999;
+}
