@@ -233,3 +233,8 @@
     text-decoration: none;
     color: #3C5999;
 }
+
+#form label{
+    float: left;
+    font-weight: 700;
+}

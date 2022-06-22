@@ -15,7 +15,7 @@
     <title>Sign up</title>
 </head>
 <body>
-    <div id="main_bg" class="container-fluid">
+    <div id="main_bg_2" class="container-fluid">
         <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="gFeed.html">Fotobook</a>
@@ -26,7 +26,35 @@
                 <a class="login" href="login.html">Login</a>
             </div>
         </nav>
-        
+        <div id="form" class="container-fluid">
+            <h1 class="title">Fotobook Signup</h1>
+            <div class="icon-list">
+                <a href="https://accounts.google.com/signin"><i class="fa-brands fa-google mx-4"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook mx-4"></i></a>
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter mx-4"></i></a>
+            </div>
+            <form class="container pt-4">
+                <div class="mt-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" 
+                    id="firstName" 
+                    placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <label for="newPassword" class="form-label">New Password</label>
+                    <input type="password" class="form-control" id="newPassword" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <label for="passwordConfirm" class="form-label">Password Comfirmation</label>
+                    <input type="password" class="form-control" id="passwordConfirm" placeholder="Password">
+                </div>
+                <button id="buttonSubmit" type="submit" class="btn btn-primary">Signup</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
