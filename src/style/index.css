@@ -224,11 +224,13 @@
 #form .icon-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 18%;
     left: 35%;
     right: 35%;
     width: 30%;
+    height: 92px;
     font-size: 50px;
     border: 2px solid #E0E0E0;
     border-radius: 12px;
@@ -236,7 +238,8 @@
 #form .icon-list a{
     padding: 0% !important;
     margin: 0% 7% !important;
-    width: 20%;
+    width: 70px;
+    height: 70px;
     text-decoration: none;
 }
 #form .icon-list .fa-google{
@@ -277,10 +280,16 @@
     right: 40%;
 }
 #form #forgotPass a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
     text-decoration: none;
     color: #3C5999;
 }
 #form #createAcc a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
     text-decoration: none;
     color: #3C5999;
 }
