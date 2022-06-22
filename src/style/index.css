@@ -231,19 +231,27 @@
     border-radius: 12px;
 }
 #form .icon-list a{
-    /* display: inline-block; */
+    padding: 0% !important;
+    margin: 0% 7% !important;
+    width: 20%;
     text-decoration: none;
 }
 #form .icon-list .fa-google{
-    font-size: 70%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 100%;
     color: darkblue;
 }
 #form .icon-list .fa-facebook{
-    font-size: 70%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 100%;
     color: #3C5999;
 }
 #form .icon-list .fa-twitter{
-    font-size: 70%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 100%;
     color: #1DA1F2;
 }
 #form form img{
